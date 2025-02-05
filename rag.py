@@ -40,4 +40,4 @@ qa_chain = RetrievalQA.from_chain_type(
 query = "Does this dryer steam with a hot water line?"
 response = qa_chain.run(query)
 
-print("/n/n" + response + "/n/n")
+print("\n\n" + response + "\n\n")
